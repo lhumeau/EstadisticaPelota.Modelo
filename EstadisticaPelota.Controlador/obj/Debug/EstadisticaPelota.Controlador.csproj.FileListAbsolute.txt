@@ -1,0 +1,9 @@
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EstadisticaPelota.Controlador.dll
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EstadisticaPelota.Controlador.pdb
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\obj\Debug\EstadisticaPelota.Controlador.dll
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\obj\Debug\EstadisticaPelota.Controlador.pdb
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\obj\Debug\EstadisticaPelota.Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EstadisticaPelota.Modelo.dll
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EstadisticaPelota.Modelo.pdb
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Controlador\bin\Debug\EntityFramework.xml

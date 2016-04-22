@@ -1,0 +1,9 @@
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\obj\Debug\EstadisticaModelado.csprojResolveAssemblyReference.cache
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EstadisticaModelado.dll
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EstadisticaModelado.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EntityFramework.dll
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\bin\Debug\EntityFramework.xml
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\obj\Debug\EstadisticaModelado.dll
+K:\EstadisticaPelota.Modelo\EstadisticaModelado\obj\Debug\EstadisticaModelado.pdb

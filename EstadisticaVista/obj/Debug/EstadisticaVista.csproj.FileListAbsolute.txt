@@ -1,0 +1,16 @@
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.exe.config
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.exe
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\Negocio.dll
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EntityFramework.dll
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\Negocio.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EntityFramework.xml
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.csprojResolveAssemblyReference.cache
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Main.resources
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.MantPelotero.resources
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Properties.Resources.resources
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.csproj.GenerateResource.Cache
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.exe
+K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.pdb

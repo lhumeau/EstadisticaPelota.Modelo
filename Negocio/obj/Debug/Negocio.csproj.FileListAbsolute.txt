@@ -1,0 +1,9 @@
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\Negocio.dll
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\Negocio.pdb
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\EntityFramework.dll
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\EntityFramework.xml
+K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.dll
+K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.pdb

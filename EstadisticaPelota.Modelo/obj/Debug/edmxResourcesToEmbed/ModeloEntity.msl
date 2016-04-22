@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModeloEntityStoreContainer" CdmEntityContainer="ModeloEntityContainer">
+    <EntitySetMapping Name="Juegos">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.Juego)">
+        <MappingFragment StoreEntitySet="Juegos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumeroJuego" ColumnName="NumeroJuego" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="Equipo1" ColumnName="Equipo1" />
+          <ScalarProperty Name="Equipo2" ColumnName="Equipo2" />
+          <ScalarProperty Name="Ganador" ColumnName="Ganador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Equipoes">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.Equipo)">
+        <MappingFragment StoreEntitySet="Equipoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jugadors">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.Jugador)">
+        <MappingFragment StoreEntitySet="Jugadors">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Ponche" ColumnName="Ponche" />
+          <ScalarProperty Name="Hits" ColumnName="Hits" />
+          <ScalarProperty Name="Carreras" ColumnName="Carreras" />
+          <ScalarProperty Name="HomeRun" ColumnName="HomeRun" />
+          <ScalarProperty Name="EquipoId" ColumnName="EquipoId" />
+          <ScalarProperty Name="PosicionID" ColumnName="PosicionID" />
+          <ScalarProperty Name="ligaID" ColumnName="ligaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ligas">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.Liga)">
+        <MappingFragment StoreEntitySet="Ligas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posiciones">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.Posicione)">
+        <MappingFragment StoreEntitySet="Posiciones">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="JugadorId" ColumnName="JugadorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.sysdiagram)">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoEstadisticas">
+      <EntityTypeMapping TypeName="IsTypeOf(ModeloEntity.TipoEstadistica)">
+        <MappingFragment StoreEntitySet="TipoEstadisticas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Promedio" ColumnName="Promedio" />
+          <ScalarProperty Name="EquipoId" ColumnName="EquipoId" />
+          <ScalarProperty Name="SLG" ColumnName="SLG" />
+          <ScalarProperty Name="JugadorId" ColumnName="JugadorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

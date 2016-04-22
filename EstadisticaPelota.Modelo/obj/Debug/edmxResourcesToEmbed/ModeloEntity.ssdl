@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloEntity.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModeloEntityStoreContainer">
+    <EntitySet Name="Juegos" EntityType="ModeloEntity.Store.Juegos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Equipoes" EntityType="ModeloEntity.Store.Equipoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Jugadors" EntityType="ModeloEntity.Store.Jugadors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ligas" EntityType="ModeloEntity.Store.Ligas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Posiciones" EntityType="ModeloEntity.Store.Posiciones" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="ModeloEntity.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TipoEstadisticas" EntityType="ModeloEntity.Store.TipoEstadisticas" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_EquipoJugador" Association="ModeloEntity.Store.FK_EquipoJugador">
+      <End Role="Equipo" EntitySet="Equipoes" />
+      <End Role="Jugador" EntitySet="Jugadors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Juegos_Equipoes" Association="ModeloEntity.Store.FK_Juegos_Equipoes">
+      <End Role="Equipo" EntitySet="Equipoes" />
+      <End Role="Juego" EntitySet="Juegos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Juegos_Equipoes1" Association="ModeloEntity.Store.FK_Juegos_Equipoes1">
+      <End Role="Equipo" EntitySet="Equipoes" />
+      <End Role="Juego" EntitySet="Juegos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Juegos_Equipoes2" Association="ModeloEntity.Store.FK_Juegos_Equipoes2">
+      <End Role="Equipo" EntitySet="Equipoes" />
+      <End Role="Juego" EntitySet="Juegos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Jugadors_Liga1" Association="ModeloEntity.Store.FK_Jugadors_Liga1">
+      <End Role="Liga" EntitySet="Ligas" />
+      <End Role="Jugador" EntitySet="Jugadors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Jugadors_Posiciones1" Association="ModeloEntity.Store.FK_Jugadors_Posiciones1">
+      <End Role="Posicione" EntitySet="Posiciones" />
+      <End Role="Jugador" EntitySet="Jugadors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TipoEstadisticas_Jugadors" Association="ModeloEntity.Store.FK_TipoEstadisticas_Jugadors">
+      <End Role="Jugador" EntitySet="Jugadors" />
+      <End Role="TipoEstadistica" EntitySet="TipoEstadisticas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Juegos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroJuego" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="fecha" Type="datetime" Nullable="true" />
+    <Property Name="Equipo1" Type="int" Nullable="true" />
+    <Property Name="Equipo2" Type="int" Nullable="true" />
+    <Property Name="Ganador" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Equipoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Jugadors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Ponche" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Hits" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Carreras" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HomeRun" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EquipoId" Type="int" Nullable="true" />
+    <Property Name="PosicionID" Type="int" Nullable="true" />
+    <Property Name="ligaID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Ligas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Posiciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JugadorId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="TipoEstadisticas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Promedio" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EquipoId" Type="int" Nullable="false" />
+    <Property Name="SLG" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JugadorId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_EquipoJugador">
+    <End Role="Equipo" Type="ModeloEntity.Store.Equipoes" Multiplicity="0..1" />
+    <End Role="Jugador" Type="ModeloEntity.Store.Jugadors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="EquipoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Juegos_Equipoes">
+    <End Role="Equipo" Type="ModeloEntity.Store.Equipoes" Multiplicity="0..1" />
+    <End Role="Juego" Type="ModeloEntity.Store.Juegos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Juego">
+        <PropertyRef Name="Equipo1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Juegos_Equipoes1">
+    <End Role="Equipo" Type="ModeloEntity.Store.Equipoes" Multiplicity="0..1" />
+    <End Role="Juego" Type="ModeloEntity.Store.Juegos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Juego">
+        <PropertyRef Name="Equipo2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Juegos_Equipoes2">
+    <End Role="Equipo" Type="ModeloEntity.Store.Equipoes" Multiplicity="0..1" />
+    <End Role="Juego" Type="ModeloEntity.Store.Juegos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Juego">
+        <PropertyRef Name="Ganador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Jugadors_Liga1">
+    <End Role="Liga" Type="ModeloEntity.Store.Ligas" Multiplicity="0..1" />
+    <End Role="Jugador" Type="ModeloEntity.Store.Jugadors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Liga">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="ligaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Jugadors_Posiciones1">
+    <End Role="Posicione" Type="ModeloEntity.Store.Posiciones" Multiplicity="0..1" />
+    <End Role="Jugador" Type="ModeloEntity.Store.Jugadors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Posicione">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="PosicionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TipoEstadisticas_Jugadors">
+    <End Role="Jugador" Type="ModeloEntity.Store.Jugadors" Multiplicity="1" />
+    <End Role="TipoEstadistica" Type="ModeloEntity.Store.TipoEstadisticas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TipoEstadistica">
+        <PropertyRef Name="JugadorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

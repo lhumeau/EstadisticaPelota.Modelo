@@ -1,0 +1,18 @@
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.Properties.Resources.resources
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelotaVista.csproj.GenerateResource.Cache
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.exe
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.pdb
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe.config
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.pdb
+C:\Users\Ing. Luis Humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelotaVista.Form1.resources
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe.config
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.exe
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelotaVista.csprojResolveAssemblyReference.cache
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.MantenimientoPelotero.resources
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.Properties.Resources.resources
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelotaVista.csproj.GenerateResource.Cache
+K:\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelotaVista.Main.resources

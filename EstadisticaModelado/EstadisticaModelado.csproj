@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98093AD0-0F97-401B-9CB2-DD837C615579}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EstadisticaModelado</RootNamespace>
+    <AssemblyName>EstadisticaModelado</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EstadisticaPelotaEnlaceDatos\EstadisticaPelotaEnlaceDatos.csproj">
+      <Project>{b356a97a-3f75-4641-9400-dd9ef0bbb23e}</Project>
+      <Name>EstadisticaPelotaEnlaceDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Class1.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DataSet1.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+EquiposDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+EquiposRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+EquiposRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+EquiposRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JuegosDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JuegosRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JuegosRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JuegosRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JugadoresDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JugadoresRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JugadoresRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+JugadoresRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+LigasDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+LigasRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+LigasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+LigasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+PosicionesDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+PosicionesRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+PosicionesRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+PosicionesRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+TipoEstadisticasDataTable.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+TipoEstadisticasRow.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+TipoEstadisticasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet+TipoEstadisticasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSet.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.EquiposTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.JuegosTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.JugadoresTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.LigasTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.PosicionesTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaDataSetTableAdapters.TipoEstadisticasTableAdapter.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaEntities.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Equipos.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Juegos.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Jugadores.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Liga.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Posiciones.datasource" />
+    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.TipoEstadisticas.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

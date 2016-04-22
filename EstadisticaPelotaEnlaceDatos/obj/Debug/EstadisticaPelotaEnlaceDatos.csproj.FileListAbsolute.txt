@@ -1,0 +1,7 @@
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.dll.config
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramework.dll
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramework.xml
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.dll
+K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.pdb

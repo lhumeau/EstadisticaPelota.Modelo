@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstadisticaPelotaEnlaceDatos", "EstadisticaPelotaEnlaceDatos\EstadisticaPelotaEnlaceDatos.csproj", "{B356A97A-3F75-4641-9400-DD9EF0BBB23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstadisticaVista", "EstadisticaVista\EstadisticaVista.csproj", "{B14CAE1B-87C2-42A6-B641-824F4954DF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{D93C4963-331A-40A9-B543-95F8FA2D2C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B356A97A-3F75-4641-9400-DD9EF0BBB23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B356A97A-3F75-4641-9400-DD9EF0BBB23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B356A97A-3F75-4641-9400-DD9EF0BBB23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B356A97A-3F75-4641-9400-DD9EF0BBB23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14CAE1B-87C2-42A6-B641-824F4954DF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14CAE1B-87C2-42A6-B641-824F4954DF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14CAE1B-87C2-42A6-B641-824F4954DF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14CAE1B-87C2-42A6-B641-824F4954DF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93C4963-331A-40A9-B543-95F8FA2D2C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93C4963-331A-40A9-B543-95F8FA2D2C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93C4963-331A-40A9-B543-95F8FA2D2C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93C4963-331A-40A9-B543-95F8FA2D2C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe.config
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.exe
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\bin\Debug\EstadisticaPelota.Vista.pdb
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.csprojResolveAssemblyReference.cache
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.Form1.resources
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.MantenimientoPelotero.resources
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.Properties.Resources.resources
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.csproj.GenerateResource.Cache
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.exe
+c:\users\ing. luis humeau\documents\visual studio 2012\Projects\EstadisticaPelota.Modelo\EstadisticaPelota.Vista\obj\Debug\EstadisticaPelota.Vista.pdb
