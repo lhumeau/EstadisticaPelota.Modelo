@@ -15,6 +15,7 @@ namespace EstadisticaVista
     public partial class Main : Form
     {
         MantPelotero vistapelotero = new MantPelotero();
+        Equipo.Ligaagregar vistaliga = new Equipo.Ligaagregar();
         
         public Main()
         {
@@ -43,6 +44,13 @@ namespace EstadisticaVista
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void consultarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            vistaliga.MdiParent = this;
+            vistaliga.Show();
+            vistaliga.Controls.OfType<TextBox>().ToList().ForEach(o => o.Text = "");
         }
     }
 }

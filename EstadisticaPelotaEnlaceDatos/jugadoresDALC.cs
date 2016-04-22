@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 
 
 namespace EstadisticaPelotaEnlaceDatos
@@ -12,32 +13,77 @@ namespace EstadisticaPelotaEnlaceDatos
     {
         public List<Jugadores> GetJugadores()
         {
-            using (DbEstadisticaEntities db = new DbEstadisticaEntities())
+            using (EstadisticaDbEntities db = new EstadisticaDbEntities())
             {
                 return db.Jugadores.ToList();
             }
 
         }
-        public void SetJugadores(string a, string b, string c, string d, string e, int f, int g, int t)
+
+        public void setLiga(string a)
         {
-                                using (DbEstadisticaEntities Context = new DbEstadisticaEntities())
+            using (EstadisticaDbEntities context = new EstadisticaDbEntities())
+            {
+                Ligas liga = new Ligas()
+                {
+                   tipo = a,
+                };
+                 try
+                                    {
+                                        context.Ligas.Add(liga);
+                                        context.SaveChanges();
+                                        Console.WriteLine("escrito en Base de datos");
+                                    }
+                                    catch (DbEntityValidationException dbEx)
+                                    {
+                                        foreach (var validationErrors in dbEx.EntityValidationErrors)
+                                        {
+                                            foreach (var validationError in validationErrors.ValidationErrors)
+                                            {
+                                                System.Console.WriteLine("Property: {0} Error: {1}", validationError.PropertyName, validationError.ErrorMessage);
+                                            }
+                                        }
+                                    }
+                               
+               
+            }
+
+        }
+        public void SetJugadores(string a, string b, string c, string d, string e, int f, int g, int h)
+        {
+            using (EstadisticaDbEntities Context = new EstadisticaDbEntities())
                                 {
 
 
                                     Jugadores jugador = new Jugadores()
                                     {
                                         Nombre = a,
-                                        Hits = b,
-                                        Carreras = c,
-                                        HomeRun = d,
+                                        Ponche = b,
+                                        Hits = c,
+                                        Carreras = d,
+                                        HomeRun = e,
                                         EquipoId = f,
                                         PosicionID = g,
-                                        ligaID = t
+                                        ligaID = h
 
                                     };
-
-                                    Context.Jugadores.Add(jugador);
-                                    Console.WriteLine("escrito en Base de datos");
+                                    try
+                                    {
+                                        Context.Jugadores.Add(jugador);
+                                        Context.SaveChanges();
+                                        Console.WriteLine("escrito en Base de datos");
+                                    }
+                                    catch (DbEntityValidationException dbEx)
+                                    {
+                                        foreach (var validationErrors in dbEx.EntityValidationErrors)
+                                        {
+                                            foreach (var validationError in validationErrors.ValidationErrors)
+                                            {
+                                                System.Console.WriteLine("Property: {0} Error: {1}", validationError.PropertyName, validationError.ErrorMessage);
+                                            }
+                                        }
+                                    }
+                               
                                     
                                    
 

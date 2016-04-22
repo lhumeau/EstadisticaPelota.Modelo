@@ -5,3 +5,11 @@ K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramewo
 K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramework.xml
 K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.dll
 K:\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.dll.config
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaPelotaEnlaceDatos\obj\Debug\EstadisticaPelotaEnlaceDatos.pdb

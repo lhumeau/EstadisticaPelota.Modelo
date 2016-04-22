@@ -55,10 +55,10 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Ligas">
-      <EntityTypeMapping TypeName="DbEstadisticaModel.Ligas">
+      <EntityTypeMapping TypeName="IsTypeOf(DbEstadisticaModel.Ligas)">
         <MappingFragment StoreEntitySet="Ligas">
-          <ScalarProperty Name="tipo" ColumnName="tipo" />
           <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -31,10 +31,6 @@
       <End Role="TipoEstadisticas" EntitySet="TipoEstadisticas" />
     </AssociationSet>
     <EntitySet Name="Ligas" EntityType="DbEstadisticaModel.Ligas" />
-    <AssociationSet Name="LigasJugadores" Association="DbEstadisticaModel.LigasJugadores">
-      <End Role="Ligas" EntitySet="Ligas" />
-      <End Role="Jugadores" EntitySet="Jugadores" />
-    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Equipos">
     <Key>
@@ -175,8 +171,4 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="tipo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
-  <Association Name="LigasJugadores">
-    <End Type="DbEstadisticaModel.Ligas" Role="Ligas" Multiplicity="1" />
-    <End Type="DbEstadisticaModel.Jugadores" Role="Jugadores" Multiplicity="0..1" />
-  </Association>
 </Schema>

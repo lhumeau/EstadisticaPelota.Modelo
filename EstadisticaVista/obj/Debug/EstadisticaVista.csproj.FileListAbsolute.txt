@@ -14,3 +14,20 @@ K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Properti
 K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.csproj.GenerateResource.Cache
 K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.exe
 K:\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.exe.config
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.exe
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaVista.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\Negocio.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\Negocio.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Main.resources
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.MantPelotero.resources
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Properties.Resources.resources
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.csproj.GenerateResource.Cache
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.exe
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\EstadisticaVista\obj\Debug\EstadisticaVista.Equipo.Ligaagregar.resources

@@ -51,6 +51,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbestadisticaDataSetVista.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Equipo\Ligaagregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipo\Ligaagregar.Designer.cs">
+      <DependentUpon>Ligaagregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstadisticaDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadisticaDbDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Equipo\Ligaagregar.resx">
+      <DependentUpon>Ligaagregar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,11 +105,20 @@
     <None Include="dbestadisticaDataSetVista.xss">
       <DependentUpon>dbestadisticaDataSetVista.xsd</DependentUpon>
     </None>
-    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.DbEstadisticaEntities.datasource" />
+    <None Include="EstadisticaDbDataSet.xsc">
+      <DependentUpon>EstadisticaDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EstadisticaDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstadisticaDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EstadisticaDbDataSet.xss">
+      <DependentUpon>EstadisticaDbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Equipos.datasource" />
     <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Juegos.datasource" />
     <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Jugadores.datasource" />
-    <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Liga.datasource" />
     <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.Posiciones.datasource" />
     <None Include="Properties\DataSources\EstadisticaPelotaEnlaceDatos.TipoEstadisticas.datasource" />
     <None Include="Properties\Settings.settings">
@@ -115,14 +138,17 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EstadisticaPelotaEnlaceDatos\EstadisticaPelotaEnlaceDatos.csproj">
+    <ProjectReference Include="..\EstadisticaPelotaEnlaceDatos\Datos.csproj">
       <Project>{b356a97a-3f75-4641-9400-dd9ef0bbb23e}</Project>
-      <Name>EstadisticaPelotaEnlaceDatos</Name>
+      <Name>Datos</Name>
     </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{d93c4963-331a-40a9-b543-95f8fa2d2c95}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Liga\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

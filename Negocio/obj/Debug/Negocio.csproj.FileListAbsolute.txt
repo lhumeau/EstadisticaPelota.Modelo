@@ -7,3 +7,12 @@ K:\EstadisticaPelota.Modelo\Negocio\bin\Debug\EntityFramework.xml
 K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.dll
 K:\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\EstadisticaPelotaEnlaceDatos.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\EstadisticaPelotaEnlaceDatos.pdb
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ing. Luis Humeau\Documents\GitHub\EstadisticaPelota.Modelo\Negocio\obj\Debug\Negocio.pdb

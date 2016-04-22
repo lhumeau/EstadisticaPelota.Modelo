@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EstadisticaPelotaEnlaceDatos;
+using System.Windows.Forms;
 namespace Negocio
 {
    public class JugadoresCN
     {
+       
        public static List<Jugadores> GetJugadores()
        {
            jugadoresDALC obj = new jugadoresDALC();
@@ -22,6 +24,13 @@ namespace Negocio
            
 
        }
+
+       public static void LimpiarTextBox(Form a)
+       {
+           a.Controls.OfType<TextBox>().ToList().ForEach(o => o.Text = "");
+
+       }
+
 
     }
 }
